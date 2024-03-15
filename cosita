@@ -598,3 +598,31 @@ div.linea{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     }
+
+@font-face{
+    font-family: 'myriad pro light';
+    src: url(../fuentes/Myriad\ Pro\ Light.otf);
+}
+
+@font-face{
+    font-family: 'myriad pro regular';
+    src: url(../fuentes/Myriad\ Pro\ Regular.ttf);
+    font-weight: bold;
+}
+
+
+body{
+    margin: 0;
+    position: relative;
+    width: 100vw; 
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+.notebugues{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+}
